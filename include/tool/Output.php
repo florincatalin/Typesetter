@@ -2003,7 +2003,7 @@ namespace gp\tool{
 			if( !isset($config['showgplink']) || $config['showgplink'] ){
 				if( self::is_front_page() ){
 					echo ' <span id="powered_by_link">';
-					echo 'Powered by <a href="'.CMS_DOMAIN.'" target="_blank">'.CMS_NAME.'</a>';
+					echo 'Propulsat de <a href="'.CMS_DOMAIN.'" target="_blank">'.CMS_NAME.'</a>';
 					echo '</span>';
 				}
 			}
